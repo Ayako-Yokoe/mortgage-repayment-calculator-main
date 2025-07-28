@@ -1,0 +1,12 @@
+.result-wrapper {
+  flex: 1;
+  padding: 2rem 1.5rem;
+  color: var(--color-white);
+  background-color: hsla(201, 56%, 16%, 0.95);
+}
+
+@media (min-width: 768px) {
+  .result-wrapper {
+    border-radius: 0 0 0 70px;
+  }
+}

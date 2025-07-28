@@ -1,0 +1,27 @@
+.wrapper {
+  background-color: var(--color-slate-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--color-white);
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    height: 100vh;
+  }
+
+  .contents {
+    flex-direction: row;
+    max-width: 1000px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-inline: 1rem;
+  }
+}
